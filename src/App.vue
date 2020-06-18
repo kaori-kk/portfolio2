@@ -1,12 +1,22 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <TabMenu></TabMenu>
     <router-view/>
   </div>
 </template>
+
+<script>
+
+import TabMenu from '@/components/TabMenu'
+
+export default {
+  name: 'App',
+  components: {
+    TabMenu
+  }
+}
+</script>
+
 
 <style>
 #app {
