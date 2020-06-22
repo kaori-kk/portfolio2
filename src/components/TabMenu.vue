@@ -34,7 +34,7 @@ body {
 .tab{
   list-style: none;
   display: flex;
-  background-color:skyblue;
+  background-color:white;
   margin: 0;
   width:100%;
 }
@@ -44,7 +44,11 @@ body {
 }
 
 .tab-list a {
-  color: white;
+  color: #222;
   text-decoration: none;
+}
+
+.tab-list a:hover {
+  text-decoration: underline;
 }
 </style>
