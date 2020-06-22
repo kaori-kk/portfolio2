@@ -42,4 +42,9 @@ body {
 .tab-list{
   padding: 15px;
 }
+
+.tab-list a {
+  color: white;
+  text-decoration: none;
+}
 </style>
